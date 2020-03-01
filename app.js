@@ -232,7 +232,7 @@ var App = function (_React$Component3) {
   _createClass(App, [{
     key: "componentDidMount",
     value: function componentDidMount() {
-      checkIfPersistDataExists();
+      this.checkIfPersistDataExists();
     }
   }, {
     key: "checkIfPersistDataExists",

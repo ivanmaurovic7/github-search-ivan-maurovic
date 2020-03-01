@@ -96,7 +96,7 @@ class App extends React.Component {
   }
 
   componentDidMount() {
-    checkIfPersistDataExists()
+    this.checkIfPersistDataExists()
   }
   
 
